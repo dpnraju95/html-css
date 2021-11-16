@@ -2,6 +2,142 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: 100%;
+    }
+    body{
+        font-family: "Raleway", sans-serif;
+    }
+    .nav_session{
+        background-color: mediumturquoise;
+        width:100%;
+        height: 100px;
+        padding: 25px 0 25px;
+        display:inline-block;
+    
+    }
+    nav img{
+        height:65px;
+        width:65px;
+        padding: 25px 25px 25px 150px;
+    
+    }
+    nav ul{
+        float:right;
+    }
+    nav li:hover{
+        color:white;
+        cursor: pointer;
+    }
+    nav li{
+        display: inline-block;
+        padding:25px 25px 25px 25px;
+    }
+    
+    
+    header h1 {
+        float: left;
+        text-indent: -9999px;
+        background: url('../images/dog-icon.svg') no-repeat;
+        height: 35px;
+        width: 35px;
+        margin-top: 8px;
+    }
+    
+    #hero {
+        background: url("images/header_background.jpg") no-repeat;
+        background-size: 100%;
+        text-align: center;
+        padding: 50px 0;
+        margin-bottom: 50px;
+      }
+      
+    #hero img{
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+        border-radius: 50%;
+        border: 5px solid black;
+    
+    }
+    #hero a{
+        background: white;
+        border: 5px solid blue;
+        color: #3f8da7;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    #hero a:hover{
+        padding: 5px 10px;
+        color: white;
+        background: #3f8da7;
+    }
+    .three_coloms{
+        width: 30%;
+        display: inline-block;
+        border: 2px solid black;
+        text-align: center;
+        vertical-align: top;
+        margin: 0 10px;
+        padding: auto;
+    }
+    .three_coloms img{
+    
+        border-radius: 50%;
+        border: 2px solid black;
+        height:200px;
+        width: 200px;
+        margin: 25px 0;
+    }
+    .three_coloms p{
+        margin-bottom: 40px;
+    }
+    .three_coloms a{
+        background: white;
+        border: 3px solid black;
+        color: #3f8da7;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    .three_coloms a:hover{
+        padding: 5px 10px;
+        background: #3f8da7;
+        color: white;
+    }
+    
+    footer{
+    
+        background-color: #3f8da7;
+        color: white;
+        margin-top: 40px;
+        padding: 20px 0;
+        text-align: center;
+        text-decoration: none;
+    
+    }
+    footer img{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        text-decoration: none;
+    }
+    footer ul{
+        margin: 40px;
+    }
+    footer li{
+        display: inline-block;
+        margin: 0 25px;
+    }
+    footer a{
+        background: white;
+        border: 2px solid black;
+        color: #3f8da7;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    footer a:hover{
+        padding: 5px 10px;
+        color: white;
+        background: #3f8da7;
+    
+    }
